@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+</head>
+<body style="background-color: lightgray;">
+    <fieldset style="background-color: white;">
+    <table align="center">
+        <tr>
+            <td width="260"> <a href=""> Home </a></td>
+            <td width="260"> <a href=""> Generate Link </a></td>
+            <td width="260"> <a href=""> Transaction History </a></td>
+            <td width="260"> <a href=""> Policy </a></td>
+            <td width="260"> <a href=""> Logout </a></td>
+        <tr>
+    </table>
+</fieldset>
+           
+            <table align="center">
+                <tr>
+                    <td>Title Here </td>
+                    <td></td>
+                    <td></td>
+                    <td width="20"><input type="text" name="Title_here" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td></td>
+                    <td></td>
+                    <td style="position: right;"><textarea id="description "></textarea></td>
+                </tr>
+                <tr>
+                    <td>Account Number </td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" name="no_telp" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>Bank</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <select>
+                            <option value="HSBC">HSBC</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BNI">BNI</option>
+                            <option value="MANDIRI">MANDIRI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Holder </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="text" name="account" placeholder=""></td>
+                    </tr>
+                <tr>
+                    <td>Transaction:</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="number" min="1" max="3" /><br>
+                        If the transaction is for 3 person, chose 3 from the drop-down list
+                </td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="color: green;">                
+                        <input type='checkbox' name='send' value='send to mobile phone' />send to mobile phone <br>
+                        <input type='checkbox' name='send' value='send to email' />send to email <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Send To Mobile Phone </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="text" name="phone" placeholder=""></td>
+                </tr>
+                <tr>
+                    <td>Send To Email </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="text" name="email" placeholder=""></td><br>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><br><br>
+                        <input style="background-color: green;"  class="button" type="button" value="generate nabr link"  >
+                    </td>
+                </tr>
+                <tr>
+                <img src="icons8-add-user-male-64.png" height="200" align="left" border="1">
+                    <input type="file" name="photo" >
+                </form>
+            </tr>
+            </table>
+        </body>
+</html>
